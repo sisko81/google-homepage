@@ -2,6 +2,33 @@ body {
     font-size: 2.0vw;
 }
 
-img {
+#image-1 {
     height: 27px;
+    padding-right: 45px;
 }
+
+#header-left {
+    display: flex;
+    justify-content: start;
+}
+
+#header-right {
+    display: flex;
+    justify-content: end;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    
+}
+
+input {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+}
+
