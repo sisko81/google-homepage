@@ -1,14 +1,66 @@
+
+
+.container {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 15px;
+    border: steelblue 4px solid;
+    
+
+}
+
+
 img {
-    margin: 0 auto;
-    height: 30px;
-    border: steelblue 2px dotted;
+   
+    margin-top: 5px;
+    margin-right: 46px;
+    height: 26px;
+    
     
 }
 
-.container {
-    margin-top: 35px;
-    margin-left: 15px;
-    
-    border: chartreuse 1px solid;
+input {
+    margin-top: 7px;
+    width: 700px;
+    border:gainsboro 1px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: relative;
+   top: -7px;
+   height: 15px;
 }
+
+.material-icons {
+    position: relative;
+    right: 45px;
+}
+
+#apps {
+    float: right;
+    top: 7px;
+    color: gray;
+    height: 1px;
+    position: relative;
+    right: 150px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    position: relative;
+    left: 287px;
+    top: -10px;
+    padding-top: 7px;
+    font-size: 12px;
+    padding: 10px 20px;
+    background-color: rgb(45, 127, 194);
+    border: blue 1px solid;
+    color: #eee;
+}
+
+
 
