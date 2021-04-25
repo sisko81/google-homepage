@@ -4,7 +4,7 @@
     margin-top: 15px;
     margin-left: 15px;
     padding: 15px;
-    border: steelblue 4px solid;
+   
     
 
 }
@@ -30,11 +30,15 @@ input {
     position: relative;
    top: -7px;
    height: 15px;
+   
 }
+
+
 
 .material-icons {
     position: relative;
     right: 45px;
+    color: rgb(11, 11, 223);
 }
 
 #apps {
@@ -50,17 +54,36 @@ a:link {
     text-decoration: none;
 }
 
-a {
+#sign {
     position: relative;
-    left: 287px;
+    left: 297px;
     top: -10px;
     padding-top: 7px;
     font-size: 12px;
-    padding: 10px 20px;
+    padding: 10px 25px;
     background-color: rgb(45, 127, 194);
-    border: blue 1px solid;
+    border: rgb(69, 91, 192) 1px solid;
     color: #eee;
+    border-radius: 5px;
 }
 
+.container-2 {
+    padding-top: 7px;
+    color: black;
+    padding: 20px;
+    padding-left: 155px;
+}
 
+a {
+    padding-left: 17px;
+    color: black;
+}
 
+hr {
+    margin: 0 auto;
+    padding: 1px;
+    width: 120%;
+    color: gainsboro;
+    
+    background-color: gainsboro;
+}
