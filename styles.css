@@ -1,12 +1,10 @@
 
 
 .container {
+    margin:  0 auto;
     margin-top: 15px;
     margin-left: 15px;
     padding: 15px;
-   
-    
-
 }
 
 
@@ -15,8 +13,6 @@ img {
     margin-top: 5px;
     margin-right: 46px;
     height: 26px;
-    
-    
 }
 
 input {
@@ -74,9 +70,17 @@ a:link {
     padding-left: 155px;
 }
 
+.container-3 {
+    padding: 7px;
+    margin: auto;
+    border-radius: 35px;
+    border: gainsboro 1px solid;
+}
+
 a {
     padding-left: 17px;
-    color: black;
+    color: rgba(97, 81, 81, 0.856);
+    font-size: 12px;
 }
 
 hr {
@@ -86,4 +90,8 @@ hr {
     color: gainsboro;
     
     background-color: gainsboro;
+}
+
+span {
+    font-size: 25px;
 }
